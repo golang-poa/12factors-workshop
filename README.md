@@ -17,6 +17,8 @@ WIP...
 
 ## Usage
 
+> **IMPORTANTE:** Lembre de fazer o clone desse repositorio no diretório `~/go/src/github.com/golang-poa/12factors-workshop`
+
 ### set up 
 
 Go version: `go1.13.6 darwin/amd64`.
@@ -75,3 +77,8 @@ go run *.go
 > ```bash
 > air
 > ```
+
+### API Usage
+
+* `GET /api/v1/products/`
+* `POST /api/v1/products/:name`
