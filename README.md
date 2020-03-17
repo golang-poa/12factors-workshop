@@ -89,3 +89,4 @@ echo '[]' > /tmp/db.json
 | CONFIG  | DESCRIPTION | DEFAULT |
 | ------------- | ------------- | ------------- |
 | `WORKSHOP_DB`  |  Arquivo do banco de dados  |  `/tmp/db.json` |
+| `WORKSHOP_LISTEN`  |  Listen do webserver  |  `:9090` |

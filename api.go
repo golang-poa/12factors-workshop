@@ -52,5 +52,5 @@ func init() {
 }
 
 func start() error {
-	return router.Run(":9090")
+	return router.Run(conf.Listen)
 }
