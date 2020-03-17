@@ -7,13 +7,11 @@ Este repositorio é um código de exemplo criado com carinho e propositalmente t
 WIP...
 
 ## TODO
-
-- [x] usar um txt pra armazenar coisas
-- [ ] deixar algumas features funcionando apenas em 1 branch (ou fazemos forks)
-- [x] não usar go mod ou dep pra fazer gestão da dependencia - nem usar makefiles
-- [x] subir algo que use uma porta fixa no codigo (dae não roda concorrente - muito menos suporta rodar em portas diferentes)
-- [x] quando morre com erro, nem sempre salva o banco de dados
-- [ ] sempre precisa de um config que não ta salvo no repo
+ - [ ] Adicionar um docker-compose para usar o PostgreSQL
+ - [ ] Remover o db.go e usar o `github.com/go-pg/pg`
+ - [ ] Criar o dockerfile e atualizar o docker-compose
+ - [ ] Buildar dockerfile no actions do Github
+ - [ ] Melhorar mensagens e usar logs
 
 ## Usage
 
