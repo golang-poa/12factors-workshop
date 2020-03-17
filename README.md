@@ -27,7 +27,7 @@ Instale:
 
 ```
 go get -u github.com/gin-gonic/gin
-go get -u github.com/codegangsta/gin
+go get -u github.com/cosmtrek/air
 
 ```
 
