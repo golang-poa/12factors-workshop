@@ -70,7 +70,7 @@ echo '[]' > /tmp/db.json
 ### run
 
 ```bash
-go run *.go
+<WORKSHOP_DB="path/to/file.json"> go run *.go
 ```
 > or run with the code live reload:
 > 
@@ -82,3 +82,10 @@ go run *.go
 
 * `GET /api/v1/products/`
 * `POST /api/v1/products/:name`
+
+
+### CONFIG
+
+| CONFIG  | DESCRIPTION | DEFAULT |
+| ------------- | ------------- | ------------- |
+| `WORKSHOP_DB`  |  Arquivo do banco de dados  |  `/tmp/db.json` |

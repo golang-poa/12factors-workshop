@@ -86,7 +86,7 @@ func saveFile() error {
 		return fmt.Errorf("could not unmarshal the memorydb: %v", err)
 	}
 
-	err = ioutil.WriteFile(DB, file, 0644)
+	err = ioutil.WriteFile(conf.DB, file, 0644)
 
 	if err != nil {
 		return fmt.Errorf("could not unmarshal save the file: %v", err)
@@ -97,7 +97,7 @@ func saveFile() error {
 
 func loadFile() error {
 	fmt.Println("carregando db file")
-	file, err := ioutil.ReadFile(DB)
+	file, err := ioutil.ReadFile(conf.DB)
 
 	if err != nil {
 		return fmt.Errorf("could not read the database file: %v", err)
